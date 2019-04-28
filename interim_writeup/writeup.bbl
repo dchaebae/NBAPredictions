@@ -1,0 +1,162 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Govan}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3965d1ef1919cf8077a44e3ea1b25bca}{%
+           family={Govan},
+           familyi={G\bibinitperiod},
+           given={Anjela\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=f565dab37fe3fc0b9ae790d7c9128d49}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Carl\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ec549e671687e4822d3fb42c1d699c9e}{%
+           family={Albright},
+           familyi={A\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ac61b5062dd9191994ff4703accfff7}
+      \strng{fullhash}{1ac61b5062dd9191994ff4703accfff7}
+      \strng{authornamehash}{1ac61b5062dd9191994ff4703accfff7}
+      \strng{authorfullhash}{1ac61b5062dd9191994ff4703accfff7}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SAS Global Forum}
+      \field{journaltitle}{Proceedings of the SAS Global Forum}
+      \field{title}{Generalizing Google's PageRank to Rank National Football League Teams}
+      \field{year}{2008}
+    \endentry
+    \entry{nbapredictable}{book}{}
+      \name{author}{1}{}{%
+        {{hash=80f654aa17bc841131fc8dd2d8d4e9c6}{%
+           family={Mauboussin},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard Business Review Press}%
+      }
+      \strng{namehash}{80f654aa17bc841131fc8dd2d8d4e9c6}
+      \strng{fullhash}{80f654aa17bc841131fc8dd2d8d4e9c6}
+      \strng{authornamehash}{80f654aa17bc841131fc8dd2d8d4e9c6}
+      \strng{authorfullhash}{80f654aa17bc841131fc8dd2d8d4e9c6}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{The Success Equation: Untangling Skill and Luck in Business, Sports, and Investing}
+      \field{year}{2012}
+    \endentry
+    \entry{PageRank}{report}{}
+      \name{author}{4}{}{%
+        {{hash=7ddfb5dccb95d01018c3b0724ae93a06}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ade8269d287e9c1531e4a1cbad0b4b82}{%
+           family={Brin},
+           familyi={B\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2f555526320a1c4028ad0f6328953999}{%
+           family={Motwani},
+           familyi={M\bibinitperiod},
+           given={Rajeev},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9270c737346819f33742a35de2661f82}{%
+           family={Winograd},
+           familyi={W\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f9de4af302478f83d2bf57278b293d7}
+      \strng{fullhash}{1207a0e28611103f51b7b8315311ad5b}
+      \strng{authornamehash}{0f9de4af302478f83d2bf57278b293d7}
+      \strng{authorfullhash}{1207a0e28611103f51b7b8315311ad5b}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stanford Digital Library Technologies Project}
+      \field{month}{1}
+      \field{title}{The PageRank Citation Ranking: Bringing Order to the Web}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{nbapowerrating}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6c917c9da63448ef67108548f2951085}{%
+           family={Schuhmann},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c917c9da63448ef67108548f2951085}
+      \strng{fullhash}{6c917c9da63448ef67108548f2951085}
+      \strng{authornamehash}{6c917c9da63448ef67108548f2951085}
+      \strng{authorfullhash}{6c917c9da63448ef67108548f2951085}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBA.com}
+      \field{month}{4}
+      \field{title}{Power Rankings, Week 25: East race gets even tighter as playoffs near}
+      \field{year}{2019}
+    \endentry
+    \entry{XJ}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=606d30b0cabee49ea2b63b7b24150dc6}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b183d72e9b09f83c6c2783b262c5d9b5}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Kavirath},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a3a89a2646282ad9ed064d7a3069f84}
+      \strng{fullhash}{0a3a89a2646282ad9ed064d7a3069f84}
+      \strng{authornamehash}{0a3a89a2646282ad9ed064d7a3069f84}
+      \strng{authorfullhash}{0a3a89a2646282ad9ed064d7a3069f84}
+      \field{sortinit}{X}
+      \field{sortinithash}{755b54a59c4b54d471c87a4486a94349}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Sports Team Rankings and Predictions using Network Analysis}
+      \field{year}{2017}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
