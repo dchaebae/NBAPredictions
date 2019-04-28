@@ -1,4 +1,4 @@
-# NBA Predictions
+# NBA Team and Player Rankings using Networks
 ## Team Collaborators
 This data project was completed by two Princeton University undergraduate students enrolled in ELE/COS 381, Networks: Friends, Money, and Bytes. 
 * Daniel Chae (2020)
