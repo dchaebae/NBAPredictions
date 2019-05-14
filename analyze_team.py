@@ -261,12 +261,6 @@ if TEST_SET:
 			if visit_win == visit_higher:
 				test_acc[j] += 1
 
-	play_games = april_games.iloc[PLAYOFF_SIZE:]
-	play_games.index = range(play_games.shape[0])
-	play_visit = play_games[visit_name]
-	play_home = play_games[home_name]
-	play_diff = play_games[visit_pointcol]-play_games[home_pointcol]
-	play_acc = np.zeros(all_rankings.shape[0])
 	if PROPORTION_ACC:
 		print(test_acc/PLAYOFF_SIZE)
 	else:
@@ -274,7 +268,9 @@ if TEST_SET:
 
 # play-offs: 1 point if you win and move onto the next round
 playoff_acc = np.zeros(all_rankings.shape[0])
-playoff_result = [['MIL','DET'],['BOS','IND'],['PHI','BRK'],['TOR','ORL'],['HOU','UTA'],['POR','OKC'],['GSW','LAC'],['DEN', 'SAS']]
+playoff_result = [['MIL','DET'],['BOS','IND'],['PHI','BRK'],['TOR','ORL'],['HOU','UTA'],\
+['POR','OKC'],['GSW','LAC'],['DEN', 'SAS'],['GSW','HOU'],['POR','DEN'],['MIL','BOS'],\
+['TOR','PHI']]
 for i in range(len(playoff_result)):
 	winner = ind_dict[playoff_result[i][0]]
 	loser = ind_dict[playoff_result[i][1]]

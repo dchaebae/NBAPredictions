@@ -9,7 +9,7 @@ def converger(importance, matrix):
 		next_importance = np.matmul(importance, matrix)
 		l1_dist = np.sum(abs(importance-next_importance))
 		importance = next_importance
-		if l1_dist < 1e-20:
+		if l1_dist < 1e-10:
 			break
 	return importance
 
@@ -74,10 +74,19 @@ for k in range(query.shape[0]):
 			prop_j = time_B[j-num_A] / (num_j * 48) if num_j > 0 else 0
 			temp_i = -10
 			temp_j = -10
-			if prop_i > 0.25:
-				temp_i = -10 if num_i == 0 else pm_A[i] * prop_i ** 2
-			if prop_j > 0.25:
-				temp_j = -10 if num_j == 0 else pm_B[j-num_A] * prop_j ** 2
+			if prop_i > 0.354:
+				if num_i == 0:
+					temp_i = -10
+				else:
+					scale_A = prop_i ** 2
+					temp_i = pm_A[i] * scale_A if pm_A[i] > 0 else pm_A[i] * (2 - scale_A)
+			if prop_j > 0.354:
+				if num_j == 0:
+					temp_j = -10
+				else:
+					scale_B = prop_j ** 2
+					thisB = pm_B[j-num_A]
+					temp_j = thisB * scale_B if thisB > 0 else thisB * (2 - scale_B)
 
 			diff = temp_i - temp_j
 			if diff > 0:
@@ -172,9 +181,9 @@ for i in range(num_players):
 
 		temp_i = -10
 		temp_j = -10
-		if prop_i > 0.25:
+		if prop_i > 0.354:
 			temp_i = -10 if num_i == 0 else player_i[team_j] * prop_i**2
-		if prop_j > 0.25:
+		if prop_j > 0.354:
 			temp_j = -10 if num_j == 0 else player_j[team_i] * prop_j**2
 
 		val_diff = temp_i-temp_j
