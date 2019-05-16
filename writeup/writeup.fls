@@ -1,4 +1,4 @@
-PWD /Users/dchaebae/Documents/Princeton University/Junior/COS381/project/interim_writeup
+PWD /Users/dchaebae/Documents/Princeton University/Junior/COS381/project/writeup
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -203,7 +203,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT writeup.toc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -215,6 +214,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+OUTPUT writeup.toc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
@@ -249,12 +249,20 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./images/team.png
 INPUT ./images/team.png
 INPUT ./images/team.png
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./images/prop_acc.png
+INPUT ./images/prop_acc.png
+INPUT ./images/prop_acc.png
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT ./images/psys_appendix.png
+INPUT ./images/psys_appendix.png
+INPUT ./images/psys_appendix.png
 INPUT writeup.aux
 INPUT ./writeup.out
 INPUT ./writeup.out
@@ -271,6 +279,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb

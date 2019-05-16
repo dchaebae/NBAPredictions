@@ -22,7 +22,7 @@ PROPORTION_ACC = False
 
 # Analysis for 2019 year, can be used for other years as needed
 YEAR=2019
-games_month = glob.glob("./teamScrapedData/month*_{}.csv".format(YEAR))
+games_month = glob.glob("./teamScrapedData/*month*_{}.csv".format(YEAR))
 data_month = []
 # combine all the months to one Dataframe
 for filename in games_month:
@@ -31,7 +31,7 @@ for filename in games_month:
 
 # ADDING APRIL TO THE TRAINING SET FOR PLAYOFF PREDICTIONS
 if not TEST_SET:
-	april_games = pd.read_csv('./teamScrapedData/testmonth_april_2019.csv')
+	april_games = pd.read_csv('./teamScrapedData/test_april_2019.csv')
 	PLAYOFF_SIZE = 79
 	april_games = april_games.iloc[0:PLAYOFF_SIZE]
 	data_month.append(april_games)

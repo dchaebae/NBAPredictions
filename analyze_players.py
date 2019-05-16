@@ -108,7 +108,6 @@ for k in range(query.shape[0]):
 	print('Top 5 players of {}: {}'.format(team_A, names_list[top5_A]))
 	print('Top 5 players of {}: {}'.format(team_B, names_list[top5_B]))
 	print('Top 5 players of matchup: {}'.format(names_list[importance_rank[0:5]]))
-
 print('===================================================')
 print('All-Star: East vs West')
 print('===================================================')

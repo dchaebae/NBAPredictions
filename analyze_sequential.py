@@ -23,15 +23,17 @@ PROPORTION_ACC = False
 
 # Analysis for 2019 year, can be used for other years as needed
 YEAR=2019
-games_month = glob.glob("./teamScrapedData/month*_{}.csv".format(YEAR))
+games_month = glob.glob("./teamScrapedData/*month*_{}.csv".format(YEAR))
+games_month.sort()
 data_month = []
+print(games_month)
 # combine all the months to one Dataframe
 for filename in games_month:
 	df = pd.read_csv(filename)
 	data_month.append(df)
 
 # add april games
-april_games = pd.read_csv('./teamScrapedData/testmonth_april_2019.csv')
+april_games = pd.read_csv('./teamScrapedData/test_april_2019.csv')
 PLAYOFF_SIZE = 79
 april_games = april_games.iloc[0:PLAYOFF_SIZE]
 data_month.append(april_games)
@@ -226,16 +228,16 @@ for test_num in range(min_start,all_games_num):
 			seq_acc[j] += 1
 	all_acc[test_num-min_start,:]=seq_acc/(test_num+1-min_start)
 
-
+print(all_acc[all_games_num-min_start-1,:])
 # draw the graphs of these values over time
-t = np.arange(min_start,all_games_num)
+t = np.arange(1,all_games_num-min_start+1)
 fig, (ax1) = plt.subplots(nrows = 1, ncols = 1)
 
 label_list = ['NBA W/L','Weighted','APD','DB','NBA W/L+PSYS1','NBA W/L+PSYS2','Weighted+PSYS1','Weighted+PSYS2','APD+PSYS1','APD+PSYS2','DB+PSYS1','DB+PSYS2']
 # plot for transmit power levels
 lines = ax1.plot(t, all_acc)
 ax1.set_title('Proportional Accuracy of Models')
-ax1.legend(lines, label_list, loc='lower right', bbox_to_anchor=(1.1, 0))
+ax1.legend(lines, label_list, loc='lower right', ncol=2,mode='expand', bbox_to_anchor=(0.75, 0), borderaxespad=0)
 ax1.set_ylabel('Proportion correct')
 ax1.set_xlabel('Game number')
 plt.show()

@@ -1,20 +1,20 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
+[1] Config.pm:354> INFO - This is Biber 2.7
 [1] Config.pm:357> INFO - Logfile is 'writeup.blg'
-[62] biber-darwin:303> INFO - === Sun Apr 28, 2019, 13:03:25
-[94] Biber.pm:359> INFO - Reading 'writeup.bcf'
-[219] Biber.pm:835> INFO - Found 5 citekeys in bib section 0
-[237] Biber.pm:3670> INFO - Processing section 0
-[257] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[264] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[268] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[271] Utils.pm:164> WARN - month field 'January' in entry 'PageRank' is not an integer - this will probably not sort properly.
-[273] Utils.pm:164> WARN - month field 'April' in entry 'nbapowerrating' is not an integer - this will probably not sort properly.
-[274] Utils.pm:164> WARN - month field 'May' in entry 'XJ' is not an integer - this will probably not sort properly.
-[275] Utils.pm:164> WARN - month field 'November' in entry 'nbapredictable' is not an integer - this will probably not sort properly.
-[289] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[289] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[289] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[289] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[295] bbl.pm:608> INFO - Writing 'writeup.bbl' with encoding 'ascii'
-[297] bbl.pm:712> INFO - Output to writeup.bbl
-[297] Biber.pm:109> INFO - WARNINGS: 4
+[89] biber-darwin:303> INFO - === Tue May 14, 2019, 05:11:09
+[133] Biber.pm:359> INFO - Reading 'writeup.bcf'
+[257] Biber.pm:835> INFO - Found 5 citekeys in bib section 0
+[270] Biber.pm:3670> INFO - Processing section 0
+[303] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[305] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[311] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[320] Utils.pm:164> WARN - month field 'January' in entry 'PageRank' is not an integer - this will probably not sort properly.
+[324] Utils.pm:164> WARN - month field 'April' in entry 'nbapowerrating' is not an integer - this will probably not sort properly.
+[326] Utils.pm:164> WARN - month field 'May' in entry 'XJ' is not an integer - this will probably not sort properly.
+[328] Utils.pm:164> WARN - month field 'November' in entry 'nbapredictable' is not an integer - this will probably not sort properly.
+[347] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[347] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[347] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[347] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[358] bbl.pm:608> INFO - Writing 'writeup.bbl' with encoding 'ascii'
+[361] bbl.pm:712> INFO - Output to writeup.bbl
+[362] Biber.pm:109> INFO - WARNINGS: 4

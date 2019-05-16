@@ -1,37 +1,79 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction and Problem Statement}{2}{section.1}
+\contentsline {section}{\numberline {1}Introduction and Problem Statement}{3}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Introduction and Background}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}Introduction and Background}{3}{subsection.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Problem Statement}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.2}Related Work}{3}{subsection.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Dataset and Networks}{3}{section.2}
+\contentsline {subsection}{\numberline {1.3}Problem Statement}{4}{subsection.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Dataset and Scraping Data}{3}{subsection.2.1}
+\contentsline {section}{\numberline {2}Dataset and Networks}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Team Ranking Networks}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.1}Dataset and Scraping Data}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Player Ranking Networks}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.2}Team Ranking Networks}{4}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Team-pair Analysis}{6}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.1}Weighted Method}{5}{subsubsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}All-Star Analysis}{7}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.2}Average Point Differential (APD)}{5}{subsubsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Preliminary Analysis}{8}{section.3}
+\contentsline {subsubsection}{\numberline {2.2.3}Deviant Baseline (DB)}{6}{subsubsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Team Ranking Analysis Progress}{8}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {2.2.4}Pick on Someone Your own Size (PSYS)}{7}{subsubsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Player Ranking Analysis Progress}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {2.3}Player Ranking Networks}{8}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Future Steps}{10}{section.4}
+\contentsline {subsubsection}{\numberline {2.3.1}Team-pair Analysis}{8}{subsubsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}References}{10}{section.5}
+\contentsline {subsubsection}{\numberline {2.3.2}All-Star Analysis}{10}{subsubsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Appendix}{11}{section.6}
+\contentsline {section}{\numberline {3}Solution Implementation}{10}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Appendix A.1}{11}{subsection.6.1}
+\contentsline {subsection}{\numberline {3.1}Team Ranking Implementation}{10}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Appendix A.2}{12}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {3.1.1}Scraping}{10}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Appendix B}{16}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {3.1.2}Networks}{10}{subsubsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Player Ranking Implementation}{11}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Scraping}{11}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Networks}{11}{subsubsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Results and Discussion}{12}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Team Ranking Analysis}{12}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Sequential Accuracy Analysis}{12}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Playoff Analysis}{13}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}Qualitative Rank Analysis}{13}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Player Ranking Analysis}{15}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Team-pair Analysis}{15}{subsubsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}All-Star Analysis}{17}{subsubsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Conclusion}{19}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Future Work}{19}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Contribution of Individuals}{20}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}References}{20}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Appendix}{21}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1}Appendix A.1}{21}{subsection.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2}Appendix A.2}{22}{subsection.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3}Appendix A.3}{29}{subsection.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.4}Appendix A.4}{30}{subsection.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.5}Appendix B}{36}{subsection.9.5}
